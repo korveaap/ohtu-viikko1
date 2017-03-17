@@ -34,7 +34,7 @@ public class Main {
         System.out.println(huono);
 
         System.out.println("Olutvarasto: " + olutta);
-        System.out.println("olutta.lisaaVarastoon(10000.0)");
+        System.out.println("olutta.lisaaVarastoon(100000.0)");
         olutta.lisaaVarastoon(1000.0);
         System.out.println("Olutvarasto: " + olutta);
 

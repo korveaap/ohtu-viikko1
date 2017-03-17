@@ -29,7 +29,7 @@ public class VarastoTest {
      @Test
     public void konstuktoriKahdellaParametrillaAlkusaldoNegatiivinen() {
         Varasto varasto2 = new Varasto(10,-2);
-        assertEquals(-2, varasto2.getSaldo(), vertailuTarkkuus);
+        assertEquals(0, varasto2.getSaldo(), vertailuTarkkuus);
     }
     
     @Test
